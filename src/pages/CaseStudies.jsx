@@ -31,11 +31,11 @@ export default function CaseStudies() {
       ],
       tools: ['Playwright', 'Pytest', 'Python', 'GitHub Actions', 'Kubernetes', 'Docker', 'PostgreSQL'],
       results: [
-        { metric: '~75%', label: 'UI Automation Coverage' },
-        { metric: 'High', label: 'Release Confidence' },
-        { metric: '0 → Full', label: 'QA Function Built' }
+        { metric: '~75%', label: 'UI automation coverage achieved in early phases' },
+        { metric: '0 → Full', label: 'QA function built with ownership, processes, and quality gates' },
+        { metric: 'High', label: 'Predictable release confidence for a complex ML platform' }
       ],
-      impact: 'Transformed quality from an afterthought to a core engineering discipline, enabling faster and more confident releases for enterprise ML deployments.'
+      impact: 'Transformed quality from an afterthought into a core engineering capability, enabling faster, safer, and more scalable releases for enterprise ML deployments running in production.'
     },
     {
       id: 'everstage',
@@ -44,75 +44,80 @@ export default function CaseStudies() {
       subtitle: 'QA Engineer II · Founding Team Member',
       color: 'amber',
       icon: Target,
-      context: 'Everstage is a commission management platform for sales teams. As an early-stage startup, the product was evolving rapidly with frequent releases.',
-      problem: 'As a founding QA team member, I inherited zero automation. Testing was entirely manual, slowing down releases and allowing defects to reach production. The team needed a systematic quality approach.',
+      context: 'Everstage is a commission management platform for sales teams. As an early-stage startup, the product was evolving rapidly with frequent releases and expanding feature scope.',
+      problem: 'When I joined as part of the founding QA team, there was zero automation. Testing was entirely manual, which slowed down releases and allowed regressions to escape into production. The team needed a scalable quality system, not just more manual testing.',
       role: 'Founding QA team member responsible for establishing automation and quality processes.',
       whatIDid: [
         'Built automation framework from scratch using Playwright and Python',
         'Designed test strategy balancing coverage, speed, and maintainability',
         'Implemented E2E, integration, and API test suites',
-        'Mentored 3 junior QA engineers on automation best practices',
-        'Created quality gates integrated with CI/CD pipelines',
+        'Mentored 5 junior QA engineers on automation best practices and framework usage',
+        'Introduced quality gates integrated with CI/CD pipelines',
         'Owned end-to-end quality for multiple product areas'
       ],
       tools: ['Playwright', 'Python', 'Pytest', 'Selenium', 'Jira', 'Xray', 'Jenkins'],
       results: [
-        { metric: '0 → ~70%', label: 'Automation Coverage' },
-        { metric: '~45%', label: 'Defect Reduction' },
-        { metric: '3', label: 'Engineers Mentored' }
+        { metric: '0 → ~70%', label: 'Automation coverage achieved' },
+        { metric: '~55–60%', label: 'Reduction in production defects' },
+        { metric: '~60%', label: 'Faster regression cycles' },
+        { metric: '3', label: 'Engineers mentored into automation contributors' },
+        { metric: 'Clear', label: 'Ownership and predictable release quality' }
       ],
-      impact: 'Significantly improved product stability and team velocity, enabling the company to scale confidently while maintaining quality standards.'
+      impact: 'Transformed quality from a release bottleneck into a scalable engineering capability, enabling the company to move faster while significantly improving product stability and customer trust.'
     },
     {
       id: 'simplilearn',
       company: 'Simplilearn',
-      title: 'Scaling Test Automation for EdTech Platform',
+      title: 'Scaling Test Automation for a High-Traffic EdTech Platform',
       subtitle: 'SDET 3',
       color: 'blue',
       icon: TrendingUp,
-      context: 'Simplilearn is a leading online learning platform with millions of users worldwide. The platform includes web, mobile, and API components requiring comprehensive testing.',
-      problem: 'Regression testing was becoming a bottleneck. Test execution was slow, coverage was inconsistent, and production incidents were affecting user experience.',
-      role: 'Senior SDET responsible for improving automation coverage and execution efficiency.',
+      context: 'Simplilearn is a leading online learning platform serving millions of users worldwide across web, mobile, and API surfaces. The platform operates at high scale, making stability, performance, and release reliability business-critical.',
+      problem: 'Regression testing was becoming a major bottleneck. Test execution was slow, coverage was inconsistent across critical flows, and production incidents were directly impacting learner experience and business metrics.',
+      role: 'Senior SDET responsible for scaling automation coverage and execution efficiency across teams.',
       whatIDid: [
-        'Re-architected regression suite for parallel execution',
-        'Expanded test coverage across critical user journeys',
-        'Implemented performance testing for API endpoints',
-        'Mentored 6 QA/SDET engineers on advanced automation techniques',
-        'Introduced shift-left testing practices',
-        'Led automation strategy for web and mobile platforms'
+        'Re-architected the regression suite to support parallel execution',
+        'Expanded test coverage across critical user journeys on web and mobile',
+        'Implemented performance testing for high-traffic API endpoints',
+        'Mentored 16 QA/SDET engineers on advanced automation design and execution',
+        'Introduced shift-left testing practices across the development lifecycle',
+        'Led automation strategy for both web and mobile platforms'
       ],
       tools: ['Selenium', 'TestNG', 'Java', 'Jenkins', 'Appium', 'JMeter'],
       results: [
-        { metric: '+65%', label: 'Regression Coverage' },
-        { metric: '-50%', label: 'Execution Time' },
-        { metric: '-55%', label: 'Production Issues' }
+        { metric: '+65%', label: 'Increase in regression coverage' },
+        { metric: '~60%', label: 'Faster regression execution time' },
+        { metric: '~55–60%', label: 'Reduction in production issues' },
+        { metric: 'More', label: 'Predictable releases and earlier defect detection' }
       ],
-      impact: 'Dramatic improvement in release velocity and product stability, enabling faster feature delivery with higher confidence.'
+      impact: 'Transformed QA from a release bottleneck into a scalable quality engine, enabling faster feature delivery while significantly improving platform stability and user trust.'
     },
     {
       id: 'pickyourtrail',
       company: 'Pickyourtrail',
-      title: 'Mobile App Launch QA Ownership',
+      title: 'Owning QA for the First Mobile App Launch',
       subtitle: 'QA Automation Engineer',
       color: 'rose',
       icon: Shield,
-      context: 'Pickyourtrail is a travel-tech company that needed to launch their first mobile app to complement their web platform.',
-      problem: 'The company was launching its first mobile app with no existing mobile testing infrastructure. Web automation was also limited, creating quality risks for both platforms.',
-      role: 'QA Automation Engineer owning quality for both web and the new mobile app.',
+      context: 'Pickyourtrail is a travel-tech company preparing to launch its first mobile application to complement an existing web platform. This was a critical product milestone with direct impact on customer experience and business growth.',
+      problem: 'The company had no existing mobile testing infrastructure, and web automation coverage was also limited. Launching a brand-new mobile app without a strong quality foundation posed high risk to brand trust and user retention.',
+      role: 'QA Automation Engineer owning quality for both the web platform and the new mobile app launch.',
       whatIDid: [
-        'Built web automation framework from scratch using Playwright + Python',
-        'Established mobile testing strategy and execution for app launch',
-        'Created comprehensive regression test suites',
-        'Implemented API testing for backend services',
-        'Coordinated with development on quality standards'
+        'Built the web automation framework from scratch using Playwright and Python',
+        'Designed and executed the mobile testing strategy for the first app release',
+        'Created comprehensive regression suites covering critical user journeys',
+        'Implemented API testing for backend services to reduce end-to-end risk',
+        'Worked closely with developers to define and enforce quality standards',
+        'Mentored 4 QA engineers during the transition to automation and mobile testing'
       ],
       tools: ['Playwright', 'Python', 'Selenium', 'Appium', 'Postman'],
       results: [
-        { metric: '0 → ~60%', label: 'Regression Coverage' },
-        { metric: '-45%', label: 'Regression Time' },
-        { metric: 'Successful', label: 'Mobile Launch' }
+        { metric: '0 → ~60%', label: 'Regression coverage across platforms' },
+        { metric: '~45%', label: 'Reduction in regression execution time' },
+        { metric: 'Successful', label: 'First mobile app launch without major production issues' },
+        { metric: 'Improved', label: 'Web platform stability and release confidence' }
       ],
-      impact: 'Successfully launched the mobile app with quality confidence, while significantly improving web platform stability.'
+      impact: 'Delivered a successful first mobile launch while strengthening web quality, reducing regression risk, and raising release confidence across the product.'
     }
   ];
 
