@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About — Monica Rao</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, sans-serif;
+      background: #020617;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    a { color: #a78bfa; text-decoration: none; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 64px 24px; }
+    h1, h2, h3 { color: white; }
+    .hero {
+      background: radial-gradient(800px 400px at 80% 10%, rgba(139,92,246,.15), transparent);
+      padding: 120px 24px;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(139,92,246,.15);
+      color: #c4b5fd;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+    .card {
+      background: rgba(15,23,42,.7);
+      border: 1px solid #1e293b;
+      border-radius: 16px;
+      padding: 24px;
+    }
+    .grid3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+      gap: 24px;
+    }
+    .timeline {
+      position: relative;
+      margin-top: 48px;
+    }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: #1e293b;
+    }
+    .timeline-item {
+      display: flex;
+      margin-bottom: 48px;
+    }
+    .timeline-item:nth-child(even) { flex-direction: row-reverse; }
+    .timeline-content {
+      width: 50%;
+      padding: 0 32px;
+    }
+    .dot {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 14px;
+      height: 14px;
+      background: #8b5cf6;
+      border-radius: 50%;
+      border: 4px solid #020617;
+    }
+    .cta {
+      text-align: center;
+      padding: 100px 24px;
+    }
+    .btn {
+      display: inline-block;
+      background: #7c3aed;
+      color: white;
+      padding: 16px 32px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="badge">📍 London, United Kingdom</div>
+    <h1 style="font-size:48px;">The Story Behind<br><span style="color:#a78bfa;">My Quality Journey</span></h1>
+    <p style="max-width:700px; color:#94a3b8; font-size:18px;">
+      I'm Monica Rao — a Quality Engineering leader with 7+ years of experience helping product startups build reliable, scalable software.
+    </p>
+  </div>
+</section>
+
+<!-- STORY -->
+<section>
+  <div class="container" style="max-width:800px;">
+    <p><b style="color:white;">I fell into quality engineering almost by accident.</b> My first role at Amazon working on Alexa showed me how complex software ecosystems really are — and how critical quality becomes at scale.</p>
+
+    <p>Over the years, I’ve joined startups at their earliest stages — often as the first or founding QA engineer. At <span style="color:#a78bfa;">Everstage</span>, I built automation from zero to 70%. At <span style="color:#a78bfa;">Pickyourtrail</span>, I owned quality for their first mobile app. At <span style="color:#a78bfa;">Seldon</span>, I’m establishing the QA function for a cloud-native ML platform on Kubernetes.</p>
+
+    <p><b style="color:white;">What drives me isn’t just finding bugs</b> — it’s architecting quality into the DNA of a product.</p>
+
+    <p>Today, I’m looking for roles where I can build quality systems from scratch and own release confidence.</p>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section>
+  <div class="container">
+    <h2 style="text-align:center;">My Quality Philosophy</h2>
+    <div class="grid3">
+      <div class="card">
+        <h3>Ownership Mindset</h3>
+        <p>I anticipate quality risks and build systems to prevent them before users feel them.</p>
+      </div>
+      <div class="card">
+        <h3>Collaborative Leadership</h3>
+        <p>Quality is a team sport. I work deeply with product and engineering.</p>
+      </div>
+      <div class="card">
+        <h3>Systems Thinking</h3>
+        <p>I design quality infrastructure, not just test cases.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section>
+  <div class="container" style="max-width:900px;">
+    <h2 style="text-align:center;">The Journey So Far</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="dot"></div>
+          <h3>2017 — Amazon</h3>
+          <p>Enterprise-scale testing on Alexa & Devices</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="dot"></div>
+          <h3>2019 — Pickyourtrail</h3>
+          <p>Built first automation framework from scratch</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="dot"></div>
+          <h3>2021 — Founding QA</h3>
+          <p>Established QA functions in startups</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="dot"></div>
+          <h3>2023 — Seldon</h3>
+          <p>Leading quality for ML platform on Kubernetes</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Want to see this philosophy in action?</h2>
+  <p style="color:#94a3b8;">Explore my case studies.</p>
+  <a class="btn" href="index.html">Back to Home</a>
+</section>
+
+</body>
+</html>
