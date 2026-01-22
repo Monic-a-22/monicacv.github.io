@@ -121,7 +121,7 @@ export default function Contact() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-2xl font-bold text-white mb-8">Get in Touch</h2>
+              <h2 id="get-in-touch" className="text-2xl font-bold text-white mb-8">Get in Touch</h2>
 
               {/* Contact Methods */}
               <div className="space-y-4 mb-12">
