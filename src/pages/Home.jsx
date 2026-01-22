@@ -62,11 +62,11 @@ export default function Home() {
                 <span className="text-sm text-violet-300">Available for opportunities</span>
               </div>
 
-              <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+              <h1 className="font-display text-5xl lg:text-7xl font-bold tracking-tight text-white mb-6 leading-tight">
                 Monica Rao
               </h1>
 
-              <h2 className="text-2xl lg:text-3xl font-medium text-slate-300 mb-4">
+              <h2 className="font-display text-2xl lg:text-3xl font-semibold tracking-tight text-slate-300 mb-4">
                 Founding Lead QA & Quality Engineer
               </h2>
 
@@ -75,7 +75,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
-                className="text-xl text-violet-400 font-medium mb-8 h-8"
+                className="font-display text-xl text-violet-400 font-semibold tracking-tight mb-8 h-8"
               >
                 {taglines[currentTagline]}
               </motion.p>
@@ -120,7 +120,7 @@ export default function Home() {
                   className="p-6 rounded-2xl bg-slate-900 border border-slate-800/80 hover:border-slate-700 transition-all duration-300"
                 >
                   <item.icon className="w-10 h-10 text-violet-400 mb-4" />
-                  <div className="text-3xl font-bold text-white mb-1">{item.label}</div>
+                  <div className="font-display text-3xl font-bold tracking-tight text-white mb-1">{item.label}</div>
                   <div className="text-slate-400">{item.desc}</div>
                 </motion.div>
               ))}
@@ -158,7 +158,7 @@ export default function Home() {
             </div>
 
             {/* Title */}
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
+            <h2 className="font-display text-3xl lg:text-4xl font-bold tracking-tight text-white mb-6">
               Founding Lead QA at <span className="text-violet-400">Seldon</span>
               <span className="text-slate-500 text-2xl ml-2">(UK)</span>
             </h2>
@@ -213,7 +213,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
+            <h2 className="font-display text-3xl lg:text-4xl font-bold tracking-tight text-white mb-6">
               What I Bring to Your Team
             </h2>
             <p className="text-slate-400 text-lg leading-[1.8] max-w-2xl mx-auto">
@@ -248,7 +248,7 @@ export default function Home() {
                 className="group relative p-8 rounded-2xl bg-slate-900 border border-slate-800/80 hover:border-slate-700 transition-all duration-300"
               >
                 <div className={`w-12 h-1 rounded-full bg-${card.color}-500 mb-6`} />
-                <h3 className="text-xl font-semibold text-white mb-4">{card.title}</h3>
+                <h3 className="font-display text-xl font-semibold tracking-tight text-white mb-4">{card.title}</h3>
                 <p className="text-slate-400 leading-[1.75]">{card.desc}</p>
               </motion.div>
             ))}
@@ -329,7 +329,7 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-8">
+            <h2 className="font-display text-3xl lg:text-4xl font-bold tracking-tight text-white mb-8">
               Ready to Build Quality Into Your Product?
             </h2>
             <p className="text-lg text-slate-400 mb-12 leading-[1.8] max-w-2xl mx-auto">

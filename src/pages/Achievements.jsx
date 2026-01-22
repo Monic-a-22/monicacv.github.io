@@ -105,7 +105,7 @@ export default function Achievements() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center"
           >
-            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
+            <h1 className="font-display text-4xl lg:text-5xl font-bold tracking-tight text-white mb-6">
               Achievements & <span className="text-violet-400">Recognition</span>
             </h1>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto">
@@ -128,7 +128,7 @@ export default function Achievements() {
                 transition={{ delay: idx * 0.05 }}
                 className="text-center p-6 rounded-2xl bg-slate-900/50 border border-slate-800"
               >
-                <div className="text-3xl lg:text-4xl font-bold text-white mb-1">{metric.value}</div>
+                <div className="font-display text-3xl lg:text-4xl font-bold tracking-tight text-white mb-1">{metric.value}</div>
                 <div className="text-violet-400 font-medium text-sm mb-1">{metric.label}</div>
                 <div className="text-slate-500 text-xs">{metric.description}</div>
               </motion.div>

@@ -45,7 +45,7 @@ export default function Layout({ children, currentPageName }) {
               <div className="w-10 h-10 rounded-xl bg-violet-600 flex items-center justify-center">
                 <span className="text-white font-bold text-lg">MR</span>
               </div>
-              <span className="text-white font-semibold text-lg hidden sm:block">Monica Rao</span>
+              <span className="font-display text-white font-semibold text-lg hidden sm:block">Monica Rao</span>
             </Link>
 
             {/* Desktop Navigation */}

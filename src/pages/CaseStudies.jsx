@@ -135,7 +135,7 @@ export default function CaseStudies() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center"
           >
-            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
+            <h1 className="font-display text-4xl lg:text-5xl font-bold tracking-tight text-white mb-6">
               Case <span className="text-violet-400">Studies</span>
             </h1>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto">

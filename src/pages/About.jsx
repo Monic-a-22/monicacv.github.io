@@ -156,7 +156,7 @@ export default function About() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
+            <h2 className="font-display text-3xl lg:text-4xl font-bold tracking-tight text-white mb-4">
               My Quality Philosophy
             </h2>
             <p className="text-slate-400 text-lg max-w-2xl mx-auto">
@@ -194,7 +194,7 @@ export default function About() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
+            <h2 className="font-display text-3xl lg:text-4xl font-bold tracking-tight text-white mb-4">
               The Journey So Far
             </h2>
           </motion.div>
