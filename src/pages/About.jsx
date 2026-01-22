@@ -81,12 +81,7 @@ export default function About() {
                 </div>
               </div>
 
-              {/* Floating badge */}
-              <motion.div
-                animate={{ y: [0, -10, 0] }}
-                transition={{ duration: 3, repeat: Infinity }}
-                className="absolute -bottom-6 -left-6 bg-slate-900 border border-slate-800 rounded-xl px-6 py-4 shadow-xl"
-              >
+              <div className="mt-6 bg-slate-900 border border-slate-800 rounded-xl px-6 py-4 shadow-xl">
                 <div className="flex items-center gap-3">
                   <Award className="w-8 h-8 text-amber-500" />
                   <div>
@@ -94,7 +89,7 @@ export default function About() {
                     <div className="text-slate-500 text-sm">Foundation Level</div>
                   </div>
                 </div>
-              </motion.div>
+              </div>
             </motion.div>
           </div>
         </div>
@@ -113,28 +108,31 @@ export default function About() {
 
             <div className="space-y-6 text-lg text-slate-300 leading-relaxed">
               <p>
-                <span className="text-white font-semibold">I fell into quality engineering almost by accident.</span> My 
-                first role at Amazon working on Alexa showed me how complex software ecosystems 
-                really are — and how critical quality becomes at scale. What started as executing 
-                test cases evolved into a passion for building the systems that make testing 
+                <span className="text-white font-semibold">I fell into quality engineering almost by accident.</span> My
+                first role at Amazon, working on Alexa, showed me how complex software ecosystems
+                really are — and how critical quality becomes at scale. What started as executing
+                test cases turned into a passion for building the systems that make testing
                 meaningful.
               </p>
 
-              <p>
-                Over the years, I've had the privilege of joining startups at their earliest 
-                stages — often as the first or founding QA engineer. At <span className="text-violet-400">Everstage</span>, 
-                I built automation from zero to 70% coverage. At <span className="text-violet-400">Pickyourtrail</span>, I 
-                owned quality for their first mobile app launch. At <span className="text-violet-400">Seldon</span>, I'm 
-                currently establishing the entire QA function for a cloud-native ML platform 
-                running on Kubernetes.
+              <p className="text-white font-semibold">
+                I'm known for building QA functions from scratch and owning release confidence.
               </p>
 
               <p>
-                <span className="text-white font-semibold">What drives me isn't just finding bugs</span> — it's 
-                architecting quality into the DNA of a product. I believe QA should be a strategic 
-                partner, not a gatekeeper. My approach combines technical depth (Playwright, 
-                Cypress, Pytest, CI/CD pipelines) with quality leadership (strategy, process 
-                design, mentoring).
+                I've joined startups at their earliest stages — often as the first or founding QA
+                engineer. At <span className="text-violet-400">Everstage</span>, I built automation from zero to 70%
+                coverage. At <span className="text-violet-400">Pickyourtrail</span>, I owned quality for their first
+                mobile app launch. At <span className="text-violet-400">Seldon</span>, I'm building the QA function
+                for a cloud-native ML platform running on Kubernetes.
+              </p>
+
+              <p>
+                <span className="text-white font-semibold">What drives me isn't just finding bugs</span> — it's
+                architecting quality into the DNA of a product. I believe QA should be a strategic
+                partner, not a gatekeeper. My approach blends technical depth (Playwright,
+                Cypress, Pytest, CI/CD) with quality leadership (strategy, process design,
+                mentoring).
               </p>
 
               <p>

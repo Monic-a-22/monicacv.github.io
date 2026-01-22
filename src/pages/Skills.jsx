@@ -209,7 +209,6 @@ export default function Skills() {
                               <h4 className="text-white font-semibold">{skill.name}</h4>
                               <p className="text-slate-500 text-sm mt-1">{skill.desc}</p>
                             </div>
-                            <span className={`text-lg font-bold ${colors.text}`}>{skill.level}%</span>
                           </div>
                         </motion.div>
                       ))}
