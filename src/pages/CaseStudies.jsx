@@ -88,7 +88,7 @@ export default function CaseStudies() {
         { metric: '+65%', label: 'Increase in regression coverage' },
         { metric: '~60%', label: 'Faster regression execution time' },
         { metric: '~55–60%', label: 'Reduction in production issues' },
-        { metric: 'More', label: 'Predictable releases and earlier defect detection' }
+        { metric: 'Improved', label: 'Predictable releases and earlier defect detection' }
       ],
       impact: 'Transformed QA from a release bottleneck into a scalable quality engine, enabling faster feature delivery while significantly improving platform stability and user trust.'
     },
