@@ -211,14 +211,6 @@ export default function Skills() {
                             </div>
                             <span className={`text-lg font-bold ${colors.text}`}>{skill.level}%</span>
                           </div>
-                          <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
-                            <motion.div
-                              initial={{ width: 0 }}
-                              animate={{ width: `${skill.level}%` }}
-                              transition={{ duration: 0.8, delay: idx * 0.05 }}
-                              className={`h-full ${colors.bg} rounded-full`}
-                            />
-                          </div>
                         </motion.div>
                       ))}
                     </motion.div>
