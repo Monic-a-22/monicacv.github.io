@@ -10,55 +10,55 @@ export default function Achievements() {
   const keyAchievements = [
     {
       icon: Sparkles,
-      title: "Founding QA Functions",
-      description: "Built QA functions from the ground up at Seldon, Everstage, Simplilearn, and Pickyourtrail — defining strategy, tooling, and quality operating models.",
+      title: "Built 4 QA Functions from Scratch",
+      description: "Established complete quality engineering functions at Seldon, Everstage, Simplilearn, and Pickyourtrail — from zero automation to comprehensive test suites.",
       highlight: "Founding QA",
       color: "violet"
     },
     {
       icon: Code,
-      title: "Automation Platforms at Scale",
-      description: "Designed Playwright, Cypress, and Pytest automation platforms reaching 70–75%+ coverage with stable pipelines and reliable CI.",
-      highlight: "Automation",
+      title: "75%+ Automation Coverage",
+      description: "Achieved industry-leading automation coverage across multiple companies using Playwright, Cypress, and Pytest frameworks.",
+      highlight: "Technical Excellence",
       color: "emerald"
     },
     {
       icon: TrendingUp,
-      title: "Risk & Defect Reduction",
-      description: "Reduced production defects by ~55–65% by building test strategy, quality gates, and release risk controls.",
+      title: "45-55% Defect Reduction",
+      description: "Consistently reduced production issues through systematic test strategy, automation, and quality gates implementation.",
       highlight: "Business Impact",
       color: "amber"
     },
     {
       icon: Users,
-      title: "25+ Engineers Mentored",
-      description: "Mentored and grew 25+ engineers, building confidence in automation, quality thinking, and ownership.",
+      title: "10+ Engineers Mentored",
+      description: "Developed junior QA engineers into skilled automation engineers through hands-on mentoring and structured learning programs.",
       highlight: "Leadership",
       color: "blue"
     },
     {
       icon: Zap,
-      title: "~60% Faster Regression Cycles",
-      description: "Delivered faster release cycles through parallelization, smarter test selection, and resilient suites.",
+      title: "50% Execution Time Reduction",
+      description: "Optimized test suites for parallel execution and smart test selection, dramatically reducing regression cycle times.",
       highlight: "Efficiency",
       color: "rose"
     },
     {
       icon: Shield,
       title: "Enterprise-Scale Quality",
-      description: "Owned quality at Amazon (Alexa), Simplilearn, and Seldon — operating at enterprise scale with complex systems and high reliability needs.",
+      description: "Led quality for platforms serving enterprise clients, including ML deployment infrastructure and EdTech platforms with millions of users.",
       highlight: "Scale",
       color: "cyan"
     }
   ];
 
   const metrics = [
-    { value: "7+ years", label: "Experience", description: "Quality engineering leadership" },
-    { value: "5 companies", label: "Across SaaS & enterprise", description: "Seldon, Everstage, Simplilearn, Pickyourtrail, Amazon" },
-    { value: "75%+", label: "Peak automation coverage", description: "Playwright, Cypress, Pytest" },
-    { value: "25+", label: "Engineers mentored and grown", description: "QA, automation, and quality leadership" },
-    { value: "500+", label: "Test cases per sprint", description: "Amazon-scale execution" },
-    { value: "15+", label: "Device types tested", description: "Alexa ecosystem" }
+    { value: "7+", label: "Years Experience", description: "In Quality Engineering" },
+    { value: "6", label: "Companies", description: "Across SaaS & Enterprise" },
+    { value: "75%+", label: "Peak Coverage", description: "Automation Coverage" },
+    { value: "10+", label: "Engineers", description: "Mentored & Grown" },
+    { value: "200+", label: "Test Cases/Sprint", description: "At Amazon Scale" },
+    { value: "15+", label: "Device Types", description: "Tested at Amazon" }
   ];
 
   const certifications = [
@@ -71,10 +71,11 @@ export default function Achievements() {
   ];
 
   const recognition = [
-    "Seldon — Kudos Award (Best Performer) Quarter",
-    "Everstage — Best Performer of the Quarter",
-    "Simplilearn — Star Performer of the Month",
-    "Amazon — Best Performer of the Month"
+    "Single point of accountability for product quality at Seldon",
+    "Founding QA team member establishing quality culture at Everstage",
+    "Led automation strategy transformation at Simplilearn",
+    "Owned mobile app launch quality at Pickyourtrail",
+    "Contributed to Alexa ecosystem quality at Amazon"
   ];
 
   const colorClasses = {
@@ -108,7 +109,7 @@ export default function Achievements() {
               Achievements & <span className="text-violet-400">Recognition</span>
             </h1>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-              Senior-level impact across product teams — building QA functions, reducing delivery risk, and accelerating releases.
+              Measurable impact and milestones from 7+ years of building quality systems.
             </p>
           </motion.div>
         </div>
@@ -149,7 +150,7 @@ export default function Achievements() {
               Key Achievements
             </h2>
             <p className="text-slate-400 text-lg">
-              Impact and outcomes across founding QA roles and enterprise scale
+              Highlights that demonstrate my impact and capabilities
             </p>
           </motion.div>
 
@@ -225,7 +226,7 @@ export default function Achievements() {
             >
               <h2 className="text-2xl font-bold text-white mb-8 flex items-center gap-3">
                 <Star className="w-6 h-6 text-violet-400" />
-                Recognition & Awards
+                Notable Recognition
               </h2>
               
               <div className="space-y-4">
@@ -258,14 +259,14 @@ export default function Achievements() {
             className="text-center"
           >
             <h2 className="text-3xl font-bold text-white mb-8">
-              The Numbers, Repeatedly
+              The Numbers Tell the Story
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8">
               {[
-                { value: "~55–65%", label: "Defect reduction", sublabel: "consistently delivered" },
-                { value: "~60%", label: "Faster regression cycles", sublabel: "quality without slowing delivery" },
-                { value: "0 → 70%+", label: "Automation journeys", sublabel: "repeated multiple times" }
+                { value: "45-55%", label: "Average Defect Reduction", sublabel: "across companies" },
+                { value: "50%", label: "Faster Regression Cycles", sublabel: "through optimization" },
+                { value: "0 → 70%+", label: "Automation Journey", sublabel: "repeatedly achieved" }
               ].map((stat, idx) => (
                 <motion.div
                   key={idx}
