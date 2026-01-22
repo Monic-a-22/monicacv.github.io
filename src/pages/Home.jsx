@@ -2,12 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
-import { ArrowRight, Download, Mail, Sparkles, Shield, Rocket, Code2 } from 'lucide-react';
+import { ArrowRight, Mail, Sparkles, Shield, Rocket, Code2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function Home() {
   const [currentTagline, setCurrentTagline] = useState(0);
-  const resumeUrl = `${import.meta.env.BASE_URL}Monica_Rao_Resume.pdf`;
   
   const taglines = [
     "Building Quality Systems, Not Just Running Tests",
@@ -343,12 +342,6 @@ export default function Home() {
                   Start a Conversation
                 </Button>
               </Link>
-              <a href={resumeUrl} download>
-                <Button size="lg" variant="outline" className="border-slate-700 text-slate-300 hover:bg-slate-800 px-10 py-6 text-lg rounded-xl">
-                  <Download className="mr-2 w-5 h-5" />
-                  Download Resume
-                </Button>
-              </a>
             </div>
           </motion.div>
         </div>

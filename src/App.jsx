@@ -11,7 +11,6 @@ import CaseStudies from "@/pages/CaseStudies.jsx"
 import Achievements from "@/pages/Achievements.jsx"
 import Testimonials from "@/pages/Testimonials.jsx"
 import Contact from "@/pages/Contact.jsx"
-import Resume from "@/pages/Resume.jsx"
 
 const pages = [
   { name: "Home", component: Home },
@@ -22,7 +21,6 @@ const pages = [
   { name: "Achievements", component: Achievements },
   { name: "Testimonials", component: Testimonials },
   { name: "Contact", component: Contact },
-  { name: "Resume", component: Resume },
 ]
 
 function ScrollToTop() {

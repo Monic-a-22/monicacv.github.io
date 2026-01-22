@@ -2,17 +2,26 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  Menu, X, Home, User, Code2, Briefcase, FileText, 
-  Award, MessageSquare, Mail, Download, ExternalLink,
-  Linkedin, Github
+import {
+  Menu,
+  X,
+  Home,
+  User,
+  Code2,
+  Briefcase,
+  FileText,
+  Award,
+  MessageSquare,
+  Mail,
+  ExternalLink,
+  Linkedin,
+  Github
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function Layout({ children, currentPageName }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const resumeUrl = `${import.meta.env.BASE_URL}Monica_Rao_Resume.pdf`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -71,12 +80,6 @@ export default function Layout({ children, currentPageName }) {
                     Contact
                   </Button>
                 </Link>
-                <a href={resumeUrl} download>
-                  <Button size="sm" variant="outline" className="border-slate-700 text-slate-300 hover:bg-slate-800">
-                    <Download className="w-4 h-4 mr-2" />
-                    Resume
-                  </Button>
-                </a>
               </div>
             </div>
 
@@ -117,14 +120,6 @@ export default function Layout({ children, currentPageName }) {
                     {item.name}
                   </Link>
                 ))}
-                <div className="pt-4 border-t border-slate-800">
-                  <a href={resumeUrl} download onClick={() => setIsMenuOpen(false)}>
-                    <Button className="w-full bg-violet-600 hover:bg-violet-700 text-white">
-                      <Download className="w-4 h-4 mr-2" />
-                      Download Resume
-                    </Button>
-                  </a>
-                </div>
               </div>
             </motion.div>
           )}
@@ -209,15 +204,6 @@ export default function Layout({ children, currentPageName }) {
                     </Link>
                   </li>
                 ))}
-                <li>
-                  <a
-                    href={resumeUrl}
-                    download
-                    className="text-slate-400 hover:text-white transition-colors"
-                  >
-                    Resume
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
