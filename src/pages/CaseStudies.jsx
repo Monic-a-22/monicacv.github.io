@@ -60,7 +60,7 @@ export default function CaseStudies() {
         { metric: '0 → ~70%', label: 'Automation coverage achieved' },
         { metric: '~55–60%', label: 'Reduction in production defects' },
         { metric: '~60%', label: 'Faster regression cycles' },
-        { metric: '3', label: 'Engineers mentored into automation contributors' },
+        { metric: '5', label: 'Engineers mentored into automation contributors' },
         { metric: 'Clear', label: 'Ownership and predictable release quality' }
       ],
       impact: 'Transformed quality from a release bottleneck into a scalable engineering capability, enabling the company to move faster while significantly improving product stability and customer trust.'

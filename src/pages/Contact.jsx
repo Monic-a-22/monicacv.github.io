@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { 
   Mail, Linkedin, MapPin, Send, CheckCircle2, 
@@ -11,6 +12,7 @@ import { Label } from '@/components/ui/label';
 import { toast } from 'sonner';
 
 export default function Contact() {
+  const location = useLocation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -20,6 +22,15 @@ export default function Contact() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+
+  useEffect(() => {
+    if (location.hash === '#get-in-touch') {
+      const target = document.getElementById('get-in-touch');
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  }, [location.hash]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;

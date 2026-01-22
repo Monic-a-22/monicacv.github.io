@@ -31,8 +31,8 @@ export default function Experience() {
       tech: ['Playwright', 'Pytest', 'Python', 'GitHub Actions', 'Kubernetes', 'Docker'],
       metrics: [
         { label: 'UI Coverage', value: '~75%' },
-        { label: 'Release Confidence', value: 'High' },
-        { label: 'Framework', value: 'Built from 0' }
+        { label: 'QA Function', value: '0 → Full' },
+        { label: 'Release Confidence', value: 'Predictable' }
       ]
     },
     {
@@ -67,16 +67,16 @@ export default function Experience() {
       color: 'amber',
       highlights: [
         'Founding QA team member — built automation from zero to ~70% coverage',
-        'Reduced production issues by ~45% through comprehensive testing strategy',
-        'Mentored 3 junior QA engineers on automation and best practices',
+        'Reduced production defects by ~55–60% through comprehensive testing strategy',
+        'Mentored 5 junior QA engineers on automation and best practices',
         'Owned end-to-end quality for multiple product areas',
         'Designed and implemented test strategy and quality gates'
       ],
       tech: ['Playwright', 'Python', 'Pytest', 'Selenium', 'Jira', 'Xray'],
       metrics: [
-        { label: 'Coverage', value: '0 → 70%' },
-        { label: 'Defects', value: '-45%' },
-        { label: 'Team Mentored', value: '3 Engineers' }
+        { label: 'Coverage', value: '0 → ~70%' },
+        { label: 'Defects', value: '~55–60%' },
+        { label: 'Regression Cycles', value: '~60% Faster' }
       ]
     },
     {
@@ -90,16 +90,16 @@ export default function Experience() {
       color: 'blue',
       highlights: [
         'Increased regression coverage by ~65% through framework improvements',
-        'Reduced regression execution time by ~50% via parallel execution',
-        'Decreased production incidents by ~55% with enhanced test coverage',
-        'Mentored 6 QA/SDET engineers on automation and testing practices',
+        'Reduced regression execution time by ~60% via parallel execution',
+        'Decreased production incidents by ~55–60% with enhanced test coverage',
+        'Mentored 16 QA/SDET engineers on automation and testing practices',
         'Led automation strategy for web and mobile platforms'
       ],
       tech: ['Selenium', 'TestNG', 'Java', 'Jenkins', 'Appium'],
       metrics: [
         { label: 'Regression Coverage', value: '+65%' },
-        { label: 'Execution Time', value: '-50%' },
-        { label: 'Production Issues', value: '-55%' }
+        { label: 'Execution Time', value: '~60% Faster' },
+        { label: 'Production Issues', value: '~55–60%' }
       ]
     },
     {
@@ -115,12 +115,13 @@ export default function Experience() {
         'Built automation framework from scratch using Playwright + Python',
         'Achieved ~60% regression coverage within 8 months',
         'Owned QA for the company\'s first mobile app launch',
-        'Reduced regression execution time by ~45%'
+        'Reduced regression execution time by ~45%',
+        'Mentored 4 QA engineers during automation and mobile testing transition'
       ],
       tech: ['Playwright', 'Python', 'Selenium', 'Appium'],
       metrics: [
-        { label: 'Coverage', value: '0 → 60%' },
-        { label: 'Regression Time', value: '-45%' }
+        { label: 'Coverage', value: '0 → ~60%' },
+        { label: 'Regression Time', value: '~45% Faster' }
       ]
     },
     {
@@ -134,14 +135,14 @@ export default function Experience() {
       color: 'orange',
       highlights: [
         'Worked on Alexa and device ecosystem across 15+ device types',
-        'Executed 200+ test cases per sprint with high precision',
+        'Executed 500+ test cases per sprint with high precision',
         'Contributed to Selenium/TestNG automation framework',
         'Gained foundational understanding of enterprise-scale QA'
       ],
       tech: ['Selenium', 'TestNG', 'Java', 'Manual Testing'],
       metrics: [
         { label: 'Devices Tested', value: '15+ Types' },
-        { label: 'Test Cases/Sprint', value: '200+' }
+        { label: 'Test Cases/Sprint', value: '500+' }
       ]
     }
   ];
@@ -187,7 +188,7 @@ export default function Experience() {
                 { label: 'Years Experience', value: '7+' },
                 { label: 'Companies', value: '6' },
                 { label: 'QA Functions Built', value: '4' },
-                { label: 'Engineers Mentored', value: '10+' }
+                { label: 'Engineers Mentored', value: '25+' }
               ].map((stat, idx) => (
                 <motion.div
                   key={idx}
