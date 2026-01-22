@@ -24,21 +24,21 @@ export default function Achievements() {
     },
     {
       icon: TrendingUp,
-      title: "45-55% Defect Reduction",
+      title: "65-75% Defect Reduction",
       description: "Consistently reduced production issues through systematic test strategy, automation, and quality gates implementation.",
       highlight: "Business Impact",
       color: "amber"
     },
     {
       icon: Users,
-      title: "10+ Engineers Mentored",
+      title: "25+ Engineers Mentored",
       description: "Developed junior QA engineers into skilled automation engineers through hands-on mentoring and structured learning programs.",
       highlight: "Leadership",
       color: "blue"
     },
     {
       icon: Zap,
-      title: "50% Execution Time Reduction",
+      title: "60% Execution Time Reduction",
       description: "Optimized test suites for parallel execution and smart test selection, dramatically reducing regression cycle times.",
       highlight: "Efficiency",
       color: "rose"
@@ -54,10 +54,10 @@ export default function Achievements() {
 
   const metrics = [
     { value: "7+", label: "Years Experience", description: "In Quality Engineering" },
-    { value: "6", label: "Companies", description: "Across SaaS & Enterprise" },
+    { value: "5", label: "Companies", description: "Across SaaS & Enterprise" },
     { value: "75%+", label: "Peak Coverage", description: "Automation Coverage" },
-    { value: "10+", label: "Engineers", description: "Mentored & Grown" },
-    { value: "200+", label: "Test Cases/Sprint", description: "At Amazon Scale" },
+    { value: "25+", label: "Engineers", description: "Mentored & Grown" },
+    { value: "700+", label: "Test Cases/Sprint", description: "At Amazon Scale" },
     { value: "15+", label: "Device Types", description: "Tested at Amazon" }
   ];
 
@@ -71,11 +71,10 @@ export default function Achievements() {
   ];
 
   const recognition = [
-    "Single point of accountability for product quality at Seldon",
-    "Founding QA team member establishing quality culture at Everstage",
-    "Led automation strategy transformation at Simplilearn",
-    "Owned mobile app launch quality at Pickyourtrail",
-    "Contributed to Alexa ecosystem quality at Amazon"
+    "Seldon — Kudos Award (Best Performer) quarter",
+    "Everstage — Best Performer of the Quarter",
+    "Simplilearn — Star Performer of the Month",
+    "Amazon — Best Performer of the Month"
   ];
 
   const colorClasses = {
@@ -264,8 +263,8 @@ export default function Achievements() {
             
             <div className="grid md:grid-cols-3 gap-8">
               {[
-                { value: "45-55%", label: "Average Defect Reduction", sublabel: "across companies" },
-                { value: "50%", label: "Faster Regression Cycles", sublabel: "through optimization" },
+                { value: "65-75%", label: "Average Defect Reduction", sublabel: "across companies" },
+                { value: "60%", label: "Faster Regression Cycles", sublabel: "through optimization" },
                 { value: "0 → 70%+", label: "Automation Journey", sublabel: "repeatedly achieved" }
               ].map((stat, idx) => (
                 <motion.div
