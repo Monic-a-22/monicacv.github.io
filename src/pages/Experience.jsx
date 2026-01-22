@@ -66,7 +66,7 @@ export default function Experience() {
       logo: 'E',
       color: 'amber',
       highlights: [
-        'Founding QA team member — built automation from zero to ~70% coverage',
+        'Founding QA team member, built automation from zero to ~70% coverage',
         'Reduced production defects by ~55–60% through comprehensive testing strategy',
         'Mentored 5 junior QA engineers on automation and best practices',
         'Owned end-to-end quality for multiple product areas',

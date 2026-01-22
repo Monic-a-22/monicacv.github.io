@@ -297,7 +297,7 @@ export default function CaseStudies() {
               Whether you're building your first QA function or scaling your existing 
               quality infrastructure, I'd love to hear about your challenges.
             </p>
-            <Link to={`${createPageUrl('Contact')}#get-in-touch`}>
+            <Link to={createPageUrl('Contact')}>
               <Button size="lg" className="bg-violet-600 hover:bg-violet-700 text-white px-10 py-6 text-lg rounded-xl">
                 Let's Talk
                 <ArrowRight className="ml-2 w-5 h-5" />

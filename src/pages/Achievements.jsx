@@ -11,20 +11,20 @@ export default function Achievements() {
     {
       icon: Sparkles,
       title: "Built 4 QA Functions from Scratch",
-      description: "Established complete quality engineering functions at Seldon, Everstage, Simplilearn, and Pickyourtrail — from zero automation to comprehensive test suites.",
+      description: "Established complete quality engineering functions at Seldon, Everstage, Simplilearn, and Pickyourtrail, from zero automation to comprehensive test suites.",
       highlight: "Founding QA",
       color: "violet"
     },
     {
       icon: Code,
-      title: "75%+ Automation Coverage",
+      title: "~75% Automation Coverage",
       description: "Achieved industry-leading automation coverage across multiple companies using Playwright, Cypress, and Pytest frameworks.",
       highlight: "Technical Excellence",
       color: "emerald"
     },
     {
       icon: TrendingUp,
-      title: "65-75% Defect Reduction",
+      title: "~55–60% Defect Reduction",
       description: "Consistently reduced production issues through systematic test strategy, automation, and quality gates implementation.",
       highlight: "Business Impact",
       color: "amber"
@@ -54,10 +54,10 @@ export default function Achievements() {
 
   const metrics = [
     { value: "7+", label: "Years Experience", description: "In Quality Engineering" },
-    { value: "5", label: "Companies", description: "Across SaaS & Enterprise" },
-    { value: "75%+", label: "Peak Coverage", description: "Automation Coverage" },
+    { value: "6", label: "Companies", description: "Across SaaS & Enterprise" },
+    { value: "~75%", label: "Peak Coverage", description: "Automation Coverage" },
     { value: "25+", label: "Engineers", description: "Mentored & Grown" },
-    { value: "700+", label: "Test Cases/Sprint", description: "At Amazon Scale" },
+    { value: "500+", label: "Test Cases/Sprint", description: "At Amazon Scale" },
     { value: "15+", label: "Device Types", description: "Tested at Amazon" }
   ];
 
@@ -71,10 +71,10 @@ export default function Achievements() {
   ];
 
   const recognition = [
-    "Seldon — Kudos Award (Best Performer) quarter",
-    "Everstage — Best Performer of the Quarter",
-    "Simplilearn — Star Performer of the Month",
-    "Amazon — Best Performer of the Month"
+    "Seldon: Kudos Award (Best Performer) quarter",
+    "Everstage: Best Performer of the Quarter",
+    "Simplilearn: Star Performer of the Month",
+    "Amazon: Best Performer of the Month"
   ];
 
   const colorClasses = {
@@ -263,7 +263,7 @@ export default function Achievements() {
             
             <div className="grid md:grid-cols-3 gap-8">
               {[
-                { value: "65-75%", label: "Average Defect Reduction", sublabel: "across companies" },
+                { value: "~55–60%", label: "Average Defect Reduction", sublabel: "across companies" },
                 { value: "60%", label: "Faster Regression Cycles", sublabel: "through optimization" },
                 { value: "0 → 70%+", label: "Automation Journey", sublabel: "repeatedly achieved" }
               ].map((stat, idx) => (

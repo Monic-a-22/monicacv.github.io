@@ -25,9 +25,9 @@ export default function Home() {
 
   const highlights = [
     { icon: Shield, label: "7+ Years", desc: "Quality Engineering" },
-    { icon: Rocket, label: "5 Companies", desc: "QA Functions Built" },
-    { icon: Code2, label: "75%+", desc: "Automation Coverage" },
-    { icon: Sparkles, label: "45%+", desc: "Defect Reduction" }
+    { icon: Rocket, label: "6 Companies", desc: "Across SaaS & Enterprise" },
+    { icon: Code2, label: "~75%", desc: "Automation Coverage" },
+    { icon: Sparkles, label: "~55–60%", desc: "Defect Reduction" }
   ];
 
   return (
@@ -83,8 +83,8 @@ export default function Home() {
               <p className="text-lg text-slate-400 mb-12 leading-[1.8] max-w-xl">
                 I design, build, and run quality systems for product companies. 
                 With 7+ years specializing in SaaS startups, I've established QA functions 
-                from scratch, achieving up to 75% automation coverage and reducing 
-                production issues by 45%.
+                from scratch, achieving up to 75% automation coverage and reducing
+                production issues by ~55–60%.
               </p>
 
               <div className="flex flex-wrap gap-4">
@@ -225,7 +225,7 @@ export default function Home() {
             {[
               {
                 title: "QA Function Building",
-                desc: "Build complete quality systems from scratch — frameworks, processes, CI/CD pipelines, and team operating models.",
+                desc: "Build complete quality systems from scratch, including frameworks, processes, CI/CD pipelines, and team operating models.",
                 color: "violet"
               },
               {

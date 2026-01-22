@@ -25,10 +25,10 @@ export default function About() {
   ];
 
   const journey = [
-    { year: "2017", title: "Started as QA at Amazon", desc: "Learned enterprise-scale testing on Alexa & Devices" },
-    { year: "2019", title: "First Automation Role", desc: "Built my first framework from scratch at Pickyourtrail" },
-    { year: "2021", title: "Founding QA Journey", desc: "Established QA functions at multiple startups" },
-    { year: "2023", title: "Lead QA at Seldon", desc: "Leading quality for cloud-native ML platforms" }
+    { year: "2018", title: "Started as QA at Amazon", desc: "Worked on Alexa & Devices at enterprise scale" },
+    { year: "2021", title: "QA Automation at Pickyourtrail", desc: "Owned quality for the first mobile app launch" },
+    { year: "2022", title: "SDET 3 at Simplilearn", desc: "Scaled automation for a high-traffic EdTech platform" },
+    { year: "2024", title: "Founding Lead QA at Seldon", desc: "Building QA for a cloud-native ML platform" }
   ];
 
   return (
@@ -61,7 +61,7 @@ export default function About() {
               </h1>
 
               <p className="text-lg text-slate-400 leading-relaxed">
-                I'm Monica Rao — a Quality Engineering leader who has spent the last 
+                I'm Monica Rao, a Quality Engineering leader who has spent the last
                 7+ years helping product startups build reliable, scalable software.
               </p>
             </motion.div>
@@ -110,7 +110,7 @@ export default function About() {
               <p>
                 <span className="text-white font-semibold">I fell into quality engineering almost by accident.</span> My
                 first role at Amazon, working on Alexa, showed me how complex software ecosystems
-                really are — and how critical quality becomes at scale. What started as executing
+                really are, and how critical quality becomes at scale. What started as executing
                 test cases turned into a passion for building the systems that make testing
                 meaningful.
               </p>
@@ -120,7 +120,7 @@ export default function About() {
               </p>
 
               <p>
-                I've joined startups at their earliest stages — often as the first or founding QA
+                I've joined startups at their earliest stages, often as the first or founding QA
                 engineer. At <span className="text-violet-400">Everstage</span>, I built automation from zero to 70%
                 coverage. At <span className="text-violet-400">Pickyourtrail</span>, I owned quality for their first
                 mobile app launch. At <span className="text-violet-400">Seldon</span>, I'm building the QA function
@@ -128,7 +128,7 @@ export default function About() {
               </p>
 
               <p>
-                <span className="text-white font-semibold">What drives me isn't just finding bugs</span> — it's
+                <span className="text-white font-semibold">What drives me isn't just finding bugs</span> is
                 architecting quality into the DNA of a product. I believe QA should be a strategic
                 partner, not a gatekeeper. My approach blends technical depth (Playwright,
                 Cypress, Pytest, CI/CD) with quality leadership (strategy, process design,
@@ -136,7 +136,7 @@ export default function About() {
               </p>
 
               <p>
-                Today, I'm looking for opportunities where I can bring this founding QA mindset — 
+                Today, I'm looking for opportunities where I can bring this founding QA mindset,
                 building quality systems from scratch, owning release confidence, and partnering 
                 with engineering teams to ship better software faster.
               </p>

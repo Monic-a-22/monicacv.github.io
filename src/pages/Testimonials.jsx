@@ -9,7 +9,7 @@ export default function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      quote: "Monica joined us when we had zero QA infrastructure. Within months, she built an automation framework that gave us the confidence to ship faster. Her ownership mindset is rare — she doesn't just find bugs, she builds systems that prevent them.",
+      quote: "Monica joined us when we had zero QA infrastructure. Within months, she built an automation framework that gave us the confidence to ship faster. Her ownership mindset is rare. She doesn't just find bugs, she builds systems that prevent them.",
       author: "Alex Thompson",
       role: "VP of Engineering",
       company: "Seldon",
@@ -18,7 +18,7 @@ export default function Testimonials() {
     },
     {
       id: 2,
-      quote: "Bringing Monica on as our founding QA was one of our best decisions. She established processes that scaled with us — from a 5-person engineering team to 30+. Her mentorship helped grow three junior QAs into solid automation engineers.",
+      quote: "Bringing Monica on as our founding QA was one of our best decisions. She established processes that scaled with us, from a 5-person engineering team to 30+. Her mentorship helped grow three junior QAs into solid automation engineers.",
       author: "Priya Sharma",
       role: "CTO & Co-founder",
       company: "Everstage",
@@ -36,7 +36,7 @@ export default function Testimonials() {
     },
     {
       id: 4,
-      quote: "What sets Monica apart is her strategic thinking. She doesn't just write tests — she designs quality systems. When we launched our mobile app, her testing strategy was critical to our successful release.",
+      quote: "What sets Monica apart is her strategic thinking. She doesn't just write tests, she designs quality systems. When we launched our mobile app, her testing strategy was critical to our successful release.",
       author: "Sneha Patel",
       role: "Product Lead",
       company: "Pickyourtrail",
