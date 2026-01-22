@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
-  Mail, Linkedin, Github, MapPin, Send, CheckCircle2, 
+  Mail, Linkedin, MapPin, Send, CheckCircle2, 
   MessageSquare, Calendar, ArrowRight
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -48,33 +48,26 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'monica.rao@example.com',
-      href: 'mailto:monica.rao@example.com',
+      value: 'cvmonica97@gmail.com',
+      href: 'mailto:cvmonica97@gmail.com',
       color: 'violet'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/monicarao',
-      href: 'https://linkedin.com/in/monicarao',
+      value: 'linkedin.com/in/monica-cv',
+      href: 'https://www.linkedin.com/in/monica-cv',
       color: 'blue'
-    },
-    {
-      icon: Github,
-      label: 'GitHub',
-      value: 'github.com/monicarao',
-      href: 'https://github.com/monicarao',
-      color: 'slate'
     }
   ];
 
   const topics = [
-    "Founding QA / Building QA Functions",
-    "Automation Strategy & Framework Design",
-    "Quality Engineering Leadership",
-    "Contract / Freelance Opportunities",
-    "Speaking / Mentoring",
-    "General Inquiry"
+    "Building QA functions from scratch (Founding QA)",
+    "Test strategy & quality systems design",
+    "Automation architecture (Playwright, Cypress, Pytest)",
+    "Release quality ownership & quality gates",
+    "Scaling QA teams & mentoring engineers",
+    "Senior / Lead QA roles in product startups"
   ];
 
   return (
@@ -99,8 +92,9 @@ export default function Contact() {
               Let's <span className="text-violet-400">Connect</span>
             </h1>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-              Whether you're looking to build your QA function, discuss quality strategy, 
-              or explore collaboration opportunities — I'd love to hear from you.
+              If you're building a product and care about shipping with confidence, I'd love to talk. 
+              I'm open to discussions around building QA functions from scratch, improving quality strategy, 
+              or leading quality for fast-moving product teams.
             </p>
           </motion.div>
         </div>
@@ -151,8 +145,10 @@ export default function Contact() {
                   <MapPin className="w-5 h-5 text-violet-400" />
                   <span className="text-white font-medium">Location</span>
                 </div>
-                <p className="text-slate-300">London, United Kingdom</p>
-                <p className="text-slate-500 text-sm mt-1">Open to remote opportunities across UK/EU</p>
+                <p className="text-slate-300">
+                  Based in India, currently working with a London-based startup (Seldon) in a remote setup. 
+                  Primarily targeting UK relocation opportunities; also open to remote roles.
+                </p>
               </div>
 
               {/* Topics */}
@@ -260,7 +256,7 @@ export default function Contact() {
                         required
                         rows={5}
                         className="bg-slate-800/50 border-slate-700 text-white focus:border-violet-500 resize-none"
-                        placeholder="Tell me about your project or opportunity..."
+                        placeholder="Tell me a bit about your product, team, and what you’re trying to build. I’ll get back to you."
                       />
                     </div>
 
@@ -299,15 +295,15 @@ export default function Contact() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/20 mb-6">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span className="text-emerald-400 text-sm">Available for opportunities</span>
+              <span className="text-emerald-400 text-sm">Open to new opportunities</span>
             </div>
             
             <h2 className="text-3xl font-bold text-white mb-6">
               Currently Open to New Opportunities
             </h2>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-              I'm particularly interested in Founding QA, QA Lead, and Senior Quality Engineering 
-              roles at product startups in the UK and EU. Open to both permanent and contract positions.
+              I’m actively exploring Founding QA, QA Lead, and Senior Quality Engineer roles at product startups in the UK and EU. 
+              Open to both relocation opportunities and strong remote teams.
             </p>
           </motion.div>
         </div>
