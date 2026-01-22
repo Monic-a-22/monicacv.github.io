@@ -30,18 +30,29 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-    toast.success('Message sent successfully!');
-    
-    // Reset after showing success
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setFormData({ name: '', email: '', company: '', subject: '', message: '' });
-    }, 3000);
+    try {
+      const response = await fetch("https://formspree.io/f/mzddlqjp", {
+        method: "POST",
+        headers: { "Accept": "application/json" },
+        body: new FormData(e.target),
+      });
+
+      if (!response.ok) {
+        throw new Error("Form submission failed");
+      }
+
+      setIsSubmitted(true);
+      toast.success('Message sent successfully!');
+
+      setTimeout(() => {
+        setIsSubmitted(false);
+        setFormData({ name: '', email: '', company: '', subject: '', message: '' });
+      }, 3000);
+    } catch (error) {
+      toast.error("Something went wrong. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactMethods = [
@@ -256,7 +267,7 @@ export default function Contact() {
                         required
                         rows={5}
                         className="bg-slate-800/50 border-slate-700 text-white focus:border-violet-500 resize-none"
-                        placeholder="Tell me a bit about your product, team, and what you’re trying to build. I’ll get back to you."
+                        placeholder="Tell me about your product, team, and what you’re trying to build."
                       />
                     </div>
 
@@ -303,7 +314,7 @@ export default function Contact() {
             </h2>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto">
               I’m actively exploring Founding QA, QA Lead, and Senior Quality Engineer roles at product startups in the UK and EU. 
-              Open to both relocation opportunities and strong remote teams.
+              Open to both relocation opportunities and remote teams.
             </p>
           </motion.div>
         </div>
