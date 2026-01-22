@@ -54,7 +54,7 @@ export default function Achievements() {
 
   const metrics = [
     { value: "7+", label: "Years Experience", description: "In Quality Engineering" },
-    { value: "6", label: "Companies", description: "Across SaaS & Enterprise" },
+    { value: "5", label: "Companies", description: "Across SaaS & Enterprise" },
     { value: "~75%", label: "Peak Coverage", description: "Automation Coverage" },
     { value: "25+", label: "Engineers", description: "Mentored & Grown" },
     { value: "500+", label: "Test Cases/Sprint", description: "At Amazon Scale" },

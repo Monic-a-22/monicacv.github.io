@@ -25,7 +25,7 @@ export default function Home() {
 
   const highlights = [
     { icon: Shield, label: "7+ Years", desc: "Quality Engineering" },
-    { icon: Rocket, label: "6 Companies", desc: "Across SaaS & Enterprise" },
+    { icon: Rocket, label: "5 Companies", desc: "Across SaaS & Enterprise" },
     { icon: Code2, label: "~75%", desc: "Automation Coverage" },
     { icon: Sparkles, label: "~55–60%", desc: "Defect Reduction" }
   ];

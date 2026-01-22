@@ -186,7 +186,7 @@ export default function Experience() {
             <div className="flex flex-wrap justify-center gap-8 mt-12">
               {[
                 { label: 'Years Experience', value: '7+' },
-                { label: 'Companies', value: '6' },
+                { label: 'Companies', value: '5' },
                 { label: 'QA Functions Built', value: '4' },
                 { label: 'Engineers Mentored', value: '25+' }
               ].map((stat, idx) => (
