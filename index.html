@@ -1,10 +1,245 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Monica Rao — QA Leader</title>
-  </head>
-  <body style="background:#020617;color:white;">
-    <h1>Monica Rao</h1>
-    <p>Your site is now live. We are building it step by step.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Monica Rao — Founding Lead QA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Inter, system-ui, -apple-system, sans-serif;
+      background: radial-gradient(1200px 600px at 20% -10%, #4c1d95 0%, #020617 60%);
+      color: #e5e7eb;
+    }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 28px 0;
+    }
+
+    .logo {
+      width: 44px; height: 44px; border-radius: 12px;
+      background: #7c3aed;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 800; color: white;
+    }
+
+    nav a {
+      color: #cbd5f5; text-decoration: none; margin-left: 24px; font-weight: 500;
+    }
+
+    nav a:hover { color: white; }
+
+    .hero {
+      padding: 120px 0 80px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(16,185,129,.15);
+      color: #34d399;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 56px;
+      line-height: 1.05;
+      font-weight: 900;
+      color: white;
+      margin-bottom: 24px;
+    }
+
+    h1 span { color: #a78bfa; }
+
+    .subtitle {
+      max-width: 720px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: #cbd5e1;
+    }
+
+    .buttons {
+      margin-top: 36px;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 14px 22px;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: #7c3aed;
+      color: white;
+    }
+
+    .btn-primary:hover { background: #6d28d9; }
+
+    .btn-secondary {
+      border: 1px solid #334155;
+      color: #e5e7eb;
+    }
+
+    .btn-secondary:hover {
+      border-color: #7c3aed;
+      color: white;
+    }
+
+    .tech {
+      margin-top: 48px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .tag {
+      background: rgba(30,41,59,.7);
+      border: 1px solid #1e293b;
+      padding: 8px 14px;
+      border-radius: 10px;
+      font-size: 14px;
+      color: #e5e7eb;
+    }
+
+    .section {
+      padding: 100px 0;
+      border-top: 1px solid #0f172a;
+    }
+
+    .section h2 {
+      text-align: center;
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 16px;
+      color: white;
+    }
+
+    .section p {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto;
+      color: #94a3b8;
+      margin-bottom: 60px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, rgba(30,41,59,.6), rgba(2,6,23,.8));
+      border: 1px solid #1e293b;
+      border-radius: 20px;
+      padding: 28px;
+    }
+
+    .card h3 {
+      color: white;
+      margin-bottom: 12px;
+      font-size: 20px;
+    }
+
+    .card p {
+      text-align: left;
+      margin: 0;
+      color: #94a3b8;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 0 60px;
+      color: #64748b;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <div class="logo">MR</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Experience</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="badge">● Currently</div>
+      <h1>Founding Lead QA at <span>Seldon (UK)</span></h1>
+
+      <p class="subtitle">
+        Leading quality for a cloud-native ML inference and deployment platform. Built the QA function from scratch,
+        designed Playwright and Pytest automation frameworks achieving ~75% UI automation coverage, integrated CI/CD pipelines,
+        and enabled confident releases for Kubernetes-based distributed systems.
+      </p>
+
+      <div class="buttons">
+        <a class="btn btn-primary" href="#">Contact Me</a>
+        <a class="btn btn-secondary" href="#">Download Resume</a>
+      </div>
+
+      <div class="tech">
+        <div class="tag">Playwright</div>
+        <div class="tag">Pytest</div>
+        <div class="tag">Kubernetes</div>
+        <div class="tag">GitHub Actions</div>
+        <div class="tag">Python SDK</div>
+        <div class="tag">ML Platform</div>
+        <div class="tag">Event-Driven Architecture</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>What I Bring to Your Team</h2>
+      <p>I'm not a task-based tester. I architect quality infrastructure that scales with your product.</p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>QA Function Building</h3>
+          <p>Establish complete quality systems from scratch — frameworks, processes, CI/CD pipelines, and team structures.</p>
+        </div>
+
+        <div class="card">
+          <h3>Automation Architecture</h3>
+          <p>Design and implement robust automation using Playwright, Cypress, Pytest with comprehensive coverage strategies.</p>
+        </div>
+
+        <div class="card">
+          <h3>Quality Leadership</h3>
+          <p>Own end-to-end release quality, define test strategies, mentor engineers, and drive quality culture across teams.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Monica Rao — Quality Engineering Leadership
+    </footer>
+
+  </div>
+
+</body>
 </html>
