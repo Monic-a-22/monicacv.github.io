@@ -92,7 +92,7 @@ export default function Experience() {
         'Increased regression coverage by ~65% through framework improvements',
         'Reduced regression execution time by ~60% via parallel execution',
         'Decreased production incidents by ~55–60% with enhanced test coverage',
-        'Mentored 16 QA/SDET engineers on automation and testing practices',
+        'Mentored 9 QA/SDET engineers on automation and testing practices',
         'Led automation strategy for web and mobile platforms'
       ],
       tech: ['Selenium', 'TestNG', 'Java', 'Jenkins', 'Appium'],
@@ -116,7 +116,7 @@ export default function Experience() {
         'Achieved ~60% regression coverage within 8 months',
         'Owned QA for the company\'s first mobile app launch',
         'Reduced regression execution time by ~45%',
-        'Mentored 4 QA engineers during automation and mobile testing transition'
+        'Mentored 3 QA engineers during automation and mobile testing transition'
       ],
       tech: ['Playwright', 'Python', 'Selenium', 'Appium'],
       metrics: [
@@ -188,7 +188,7 @@ export default function Experience() {
                 { label: 'Years Experience', value: '7+' },
                 { label: 'Companies', value: '5' },
                 { label: 'QA Functions Built', value: '4' },
-                { label: 'Engineers Mentored', value: '25+' }
+                { label: 'Engineers Mentored', value: '15+' }
               ].map((stat, idx) => (
                 <motion.div
                   key={idx}

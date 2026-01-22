@@ -31,7 +31,7 @@ export default function Achievements() {
     },
     {
       icon: Users,
-      title: "25+ Engineers Mentored",
+      title: "15+ Engineers Mentored",
       description: "Developed junior QA engineers into skilled automation engineers through hands-on mentoring and structured learning programs.",
       highlight: "Leadership",
       color: "blue"
@@ -56,7 +56,7 @@ export default function Achievements() {
     { value: "7+", label: "Years Experience", description: "In Quality Engineering" },
     { value: "5", label: "Companies", description: "Across SaaS & Enterprise" },
     { value: "~75%", label: "Peak Coverage", description: "Automation Coverage" },
-    { value: "25+", label: "Engineers", description: "Mentored & Grown" },
+    { value: "15+", label: "Engineers", description: "Mentored & Grown" },
     { value: "500+", label: "Test Cases/Sprint", description: "At Amazon Scale" },
     { value: "15+", label: "Device Types", description: "Tested at Amazon" }
   ];

@@ -79,7 +79,7 @@ export default function CaseStudies() {
         'Re-architected the regression suite to support parallel execution',
         'Expanded test coverage across critical user journeys on web and mobile',
         'Implemented performance testing for high-traffic API endpoints',
-        'Mentored 16 QA/SDET engineers on advanced automation design and execution',
+        'Mentored 9 QA/SDET engineers on advanced automation design and execution',
         'Introduced shift-left testing practices across the development lifecycle',
         'Led automation strategy for both web and mobile platforms'
       ],
@@ -108,7 +108,7 @@ export default function CaseStudies() {
         'Created comprehensive regression suites covering critical user journeys',
         'Implemented API testing for backend services to reduce end-to-end risk',
         'Worked closely with developers to define and enforce quality standards',
-        'Mentored 4 QA engineers during the transition to automation and mobile testing'
+        'Mentored 3 QA engineers during the transition to automation and mobile testing'
       ],
       tools: ['Playwright', 'Python', 'Selenium', 'Appium', 'Postman'],
       results: [
