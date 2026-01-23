@@ -22,13 +22,13 @@ export default function Experience() {
       color: 'violet',
       current: true,
       highlights: [
-        'Established the QA function from scratch for a cloud-native ML inference platform',
-        'Built Playwright + Pytest automation frameworks achieving ~75% UI coverage',
-        'Designed API test isolation strategies for microservices architecture',
-        'Integrated GitHub Actions CI pipelines for automated quality gates',
-        'Single point of accountability for product quality and release confidence'
+        'Established the QA function from scratch with test strategy, quality gates, and release processes',
+        'Owned end-to-end quality across UI, API, SDK, and complex workflow testing',
+        'Built Playwright + Pytest automation frameworks achieving ~75% UI coverage for a Kafka-based platform',
+        'Built API test suites with schema validation and CI quality gates in GitHub Actions',
+        'Used Grafana signals to monitor test health and improve system stability'
       ],
-      tech: ['Playwright', 'Pytest', 'Python', 'GitHub Actions', 'Kubernetes', 'Docker'],
+      tech: ['Playwright', 'Pytest', 'Python', 'Kafka', 'Grafana', 'GitHub Actions', 'Kubernetes', 'Docker'],
       metrics: [
         { label: 'UI Coverage', value: '~75%' },
         { label: 'QA Function', value: '0 → Full' },

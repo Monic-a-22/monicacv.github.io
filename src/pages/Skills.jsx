@@ -49,6 +49,7 @@ export default function Skills() {
       skills: [
         { name: "UI/E2E Testing", level: 95, desc: "Full user journey validation" },
         { name: "API Testing", level: 92, desc: "REST/GraphQL endpoint testing" },
+        { name: "Schema Validation", level: 88, desc: "Contract checks for API payloads" },
         { name: "Integration Testing", level: 90, desc: "Service interaction validation" },
         { name: "SDK Testing", level: 85, desc: "Developer experience validation" },
         { name: "Performance Testing", level: 75, desc: "Load and stress testing" },
@@ -63,7 +64,8 @@ export default function Skills() {
         { name: "GitHub Actions", level: 90, desc: "Primary CI/CD platform" },
         { name: "Jenkins", level: 80, desc: "Enterprise CI/CD pipelines" },
         { name: "Docker", level: 85, desc: "Containerized test environments" },
-        { name: "Kubernetes", level: 75, desc: "Container orchestration" }
+        { name: "Kubernetes", level: 75, desc: "Container orchestration" },
+        { name: "Kafka", level: 72, desc: "Event-driven system testing" }
       ]
     },
     process: {
@@ -92,6 +94,7 @@ export default function Skills() {
         { name: "Xray", level: 88, desc: "Test management" },
         { name: "Zephyr", level: 85, desc: "Test case management" },
         { name: "Postman", level: 90, desc: "API development and testing" },
+        { name: "Grafana", level: 78, desc: "Observability and monitoring" },
         { name: "PostgreSQL/MySQL", level: 80, desc: "Database management" }
       ]
     }
@@ -246,6 +249,8 @@ export default function Skills() {
               { name: 'GitHub Actions', bg: 'bg-purple-500/20 border-purple-500/30 text-purple-400' },
               { name: 'Docker', bg: 'bg-cyan-500/20 border-cyan-500/30 text-cyan-400' },
               { name: 'Kubernetes', bg: 'bg-indigo-500/20 border-indigo-500/30 text-indigo-400' },
+              { name: 'Kafka', bg: 'bg-slate-500/20 border-slate-500/30 text-slate-300' },
+              { name: 'Grafana', bg: 'bg-orange-500/20 border-orange-500/30 text-orange-400' },
               { name: 'PostgreSQL', bg: 'bg-sky-500/20 border-sky-500/30 text-sky-400' },
               { name: 'Jira', bg: 'bg-blue-500/20 border-blue-500/30 text-blue-400' },
               { name: 'Postman', bg: 'bg-orange-500/20 border-orange-500/30 text-orange-400' },

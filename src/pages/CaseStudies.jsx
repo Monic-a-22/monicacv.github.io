@@ -23,15 +23,15 @@ export default function CaseStudies() {
       role: 'Brought in as the Founding Lead QA to establish the entire quality engineering function from scratch.',
       whatIDid: [
         'Designed and implemented comprehensive test strategy covering UI, API, and integration layers',
-        'Built Playwright + Pytest automation frameworks from ground up',
-        'Created API test isolation strategies for microservices running on Kubernetes',
-        'Integrated GitHub Actions CI pipelines for automated quality gates',
-        'Established release processes and quality metrics dashboards',
+        'Built Playwright + Pytest automation frameworks from ground up for a Kafka-based platform',
+        'Created API test suites with schema validation and isolation strategies for microservices on Kubernetes',
+        'Integrated GitHub Actions CI pipelines for automated quality gates and regression',
+        'Defined quality metrics and leveraged Grafana for release visibility',
         'Became the single point of accountability for product quality'
       ],
-      tools: ['Playwright', 'Pytest', 'Python', 'GitHub Actions', 'Kubernetes', 'Docker', 'PostgreSQL'],
+      tools: ['Playwright', 'Pytest', 'Python', 'Kafka', 'Grafana', 'GitHub Actions', 'Kubernetes', 'Docker', 'PostgreSQL'],
       results: [
-        { metric: '~75%', label: 'UI automation coverage achieved in early phases' },
+        { metric: '~75%', label: 'UI automation coverage achieved' },
         { metric: '0 → Full', label: 'QA function built with ownership, processes, and quality gates' },
         { metric: 'High', label: 'Predictable release confidence for a complex ML platform' }
       ],

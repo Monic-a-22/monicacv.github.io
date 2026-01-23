@@ -168,8 +168,8 @@ export default function Home() {
               Leading quality for a cloud-native ML inference and deployment platform. 
               Built the QA function from scratch, designed Playwright and Pytest automation 
               frameworks achieving <span className="text-violet-400 font-semibold">~75% UI automation coverage</span>, 
-              integrated CI/CD pipelines using GitHub Actions, and enabled confident releases 
-              for a Kubernetes-based distributed system.
+              integrated CI/CD pipelines using GitHub Actions, and improved API reliability 
+              with schema validation and observability on a Kubernetes-based distributed system.
             </p>
 
             {/* Tech Tags */}
@@ -181,6 +181,8 @@ export default function Home() {
                 {[
                   'Playwright',
                   'Pytest', 
+                  'Kafka',
+                  'Grafana',
                   'Kubernetes',
                   'GitHub Actions',
                   'Python SDK',
