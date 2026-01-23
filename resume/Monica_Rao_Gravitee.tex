@@ -1,0 +1,135 @@
+\documentclass[10pt,a4paper]{article}
+
+% -------- PAGE SETUP --------
+\usepackage[left=1.1cm,right=1.1cm,top=0.9cm,bottom=0.9cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage[none]{hyphenat}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{helvet}
+\usepackage{fontawesome5}
+\renewcommand{\familydefault}{\sfdefault}
+
+% -------- COLORS --------
+\definecolor{darkblue}{RGB}{0,51,102}
+
+% -------- LIST & SECTION STYLE --------
+\setlist{nosep, leftmargin=*, itemsep=3pt}
+\titleformat{\section}{\normalsize\bfseries\color{darkblue}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=darkblue,
+  urlcolor=darkblue
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{center}
+{\LARGE \textbf{Monica Rao}}\\
+\vspace{4pt}
+{\large \textbf{QA Automation Engineer / Founding Lead QA}}\\
+\vspace{4pt}
+\faEnvelope\ \href{mailto:cvmonica97@gmail.com}{cvmonica97@gmail.com}
+\textbar\
+\faPhone\ \href{tel:+917299883797}{+91 7299883797}
+\textbar\
+\faLinkedin\ \href{https://www.linkedin.com/in/monica-cv}{linkedin.com/in/monica-cv}
+\textbar\
+\faLink\ \href{https://monic-a-22.github.io/monicacv.github.io/#/}{Portfolio}
+\end{center}
+
+\vspace{-6pt}
+
+% ================= SUMMARY =================
+\section*{Professional Summary}
+
+QA Automation Engineer / Founding QA with 7+ years in SaaS and product startups. Strong software engineering background with hands-on automation in Playwright, Cypress, and Pytest across TypeScript/JavaScript and Java. Experienced quality owner embedded in SDLC/STLC, influencing design for testability, applying the testing pyramid (unit, component, integration, E2E), and driving shift-left practices. Cloud-native and CI/CD focused, with experience testing event-driven, multi-service platforms. Currently leading quality for a cloud-native ML inference platform to enable stable, confident releases and faster delivery.
+
+% ================= SKILLS =================
+\section*{Technical Skills}
+
+\textbf{Test Automation \& Engineering:} Playwright, Cypress, Pytest, Selenium, TestNG, Cucumber, Java, Python, TypeScript, JavaScript, API Testing, REST, HTTP, API Contract Testing, Schema Validation, Test Framework Design, SDK Testing, End-to-End (E2E) Testing, Integration Testing, Component Testing, UI Testing, Sanity Testing, Smoke Testing, Regression Testing
+
+\textbf{CI/CD, Cloud \& Platform:} CI/CD Pipelines, GitHub Actions, Jenkins, Kubernetes, Docker, Cloud-Native Systems, Event-Driven Architectures, Asynchronous Testing, Kafka, Grafana
+
+\textbf{Quality Engineering \& Process:} Test Strategy, Test Planning, Test Execution, Test Architecture, Test Case Design, Requirements Traceability Matrix (RTM), Quality Gates, Release Management, Risk-Based Testing, Shift-Left Testing, Defect Management, Root Cause Analysis, QA Governance, Testing Pyramid, Testability Reviews
+
+\textbf{Leadership \& Ways of Working:} Founding QA / First QA, QA Strategy, Team Mentorship, Coaching Engineers to Write Tests, Code Reviews, Stakeholder Management, Cross-functional Collaboration, Agile / Scrum
+
+\textbf{Tools \& Test Management:} Jira, Xray, Zephyr, Git, GitHub, Postman, Test Management, Defect Tracking, Test Reporting, Quality Metrics
+
+% ================= EXPERIENCE =================
+\section*{Professional Experience}
+
+\textbf{Seldon Technologies} \hfill \textit{London, UK}\\
+\textbf{Founding Lead QA} \hfill \textit{July 2024 | Present}
+\begin{itemize}
+\item Established and led the QA function from scratch, defining test strategy, quality gates, and release processes across engineering teams
+\item Embedded in design discussions to improve testability and reduce risk before development, partnering with engineers on quality decisions
+\item Built scalable automation frameworks using Playwright and Pytest, covering UI, API, and E2E flows for a multi-component event-driven product with Kafka, a Python SDK, and microservices on Kubernetes, using Grafana for monitoring and schema validation for API quality, achieving ~75\% UI automation coverage
+\item Developed API tests and test isolation strategies to improve CI stability and reduce flaky failures
+\item Configured GitHub Actions pipelines to trigger automated suites per deployment, enabling continuous regression testing
+\item Supported sprint planning and delivery with risk-based testing and release readiness reviews
+\end{itemize}
+
+\textbf{Kula} \hfill \textit{Chennai, India}\\
+\textbf{Senior Quality Assurance Engineer} \hfill \textit{January 2024 | April 2024}
+\begin{itemize}
+\item Joined as the second QA hire and improved release quality for a fast-growing SaaS platform, reducing average release time by ~30\%
+\item Developed and maintained Cypress automation for critical workflows, improving coverage from ~40\% to ~65\%
+\item Partnered with engineering on testability and shift-left practices in a high-velocity startup environment
+\end{itemize}
+
+\textbf{Everstage} \hfill \textit{Chennai, India}\\
+\textbf{QA Engineer II} \hfill \textit{December 2022 | December 2023}
+\begin{itemize}
+\item Founding QA team member establishing automation frameworks for two products supporting 25+ developers
+\item Worked across two stacks: Cypress with JavaScript, and Playwright with Python
+\item Designed and implemented sanity and regression automation suites achieving ~70\% regression coverage across critical E2E flows
+\item Accountable for end-to-end quality including test planning, manual testing, and automation; reduced production issues by ~55--60\%
+\item Mentored 5 junior QA engineers through code reviews and test reviews
+\end{itemize}
+
+\textbf{Simplilearn} \hfill \textit{Bengaluru, India}\\
+\textbf{SDET 3} \hfill \textit{March 2022 | December 2022}
+\begin{itemize}
+\item Owned test automation and release readiness for a core product module across UI, backend, and checkout flows
+\item Expanded regression coverage by +65\% using Cypress and JavaScript; reduced execution time by ~60\% through optimization
+\item Mentored 9 QA and SDET engineers through code reviews, test strategy guidance, and planning
+\item Reduced production incidents by ~55--60\% by strengthening test coverage and quality gates
+\end{itemize}
+
+\textbf{Pickyourtrail} \hfill \textit{Chennai, India}\\
+\textbf{QA Automation Engineer} \hfill \textit{March 2021 | March 2022}
+\begin{itemize}
+\item Early QA hire supporting 25--30 developers across web and mobile platforms
+\item Owned quality for the first mobile application launch on iOS and Android
+\item Built Playwright and Python automation achieving ~60\% regression coverage and reduced execution time by ~45\%
+\item Mentored 3 QA engineers during automation and mobile testing transition
+\end{itemize}
+
+\textbf{Amazon} \hfill \textit{Chennai, India}\\
+\textbf{Quality Associate} \hfill \textit{October 2018 | March 2021}
+\begin{itemize}
+\item Ensured quality across the Alexa and device ecosystem for millions of users across 15+ device types
+\item Performed manual, functional, and regression testing across audio, video, localization, and mobile workflows
+\item Led test planning and execution for assigned features including defect reporting, tracking, and verification across 10+ product releases
+\item Contributed to Selenium and TestNG automation, improving testing efficiency by ~30\%
+\end{itemize}
+
+% ================= EDUCATION =================
+\section*{Education \& Certifications}
+
+\textbf{Bachelor of Engineering (B.Eng.), Electrical, Electronics and Communications Engineering} \hfill \textbf{2014 | 2018}\\
+Agni College of Technology
+
+\textbf{ISTQB Certified Tester} | International Software Testing Qualifications Board
+
+\end{document}
